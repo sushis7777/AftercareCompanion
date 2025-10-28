@@ -1,6 +1,5 @@
-
 {
-  "name": "aftercare-companion",
+  "name": "careapp",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -16,8 +15,7 @@
   },
   "devDependencies": {
     "vite": "^5.0.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "tailwindcss": "^3.4.14",
+    "tailwindcss": "^4.2.0",
     "postcss": "^8.4.0",
     "autoprefixer": "^10.4.0"
   }
