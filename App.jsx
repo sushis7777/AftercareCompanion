@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Heart, CheckCircle, AlertCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
 
-export default function CAREApp() {
+export default function AftercareCompanion() {
   const [active, setActive] = useState('home')
   const tabs = [
     { id: 'home', icon: Heart, label: 'Home' },
@@ -13,7 +13,7 @@ export default function CAREApp() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-      <h1 className="text-3xl font-bold mb-6 text-pink-600">CAREapp</h1>
+      <h1 className="text-3xl font-bold mb-6 text-pink-600">Aftercare Companion</h1>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
